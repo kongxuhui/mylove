@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<style type="text/css">
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #666666;
+    color: #666;
+    position: relative;
+}
+#text-shadow-box {
+    position: relative;
+    width: 980px;
+    height: 600px;
+    background: #666;
+    overflow: hidden;
+    /*border: #333 1px solid;*/
+    margin: 0 auto;
+}
+#text-shadow-box ul {
+    margin-left: -30px;
+}
+#text-shadow-box ul li {
+    float: left;
+    margin-right: 70px;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.5) ;
+}
+#text-shadow-box div.wall {
+    position: absolute;
+    width: 100%;
+    top: 175px;
+    left: 0px
+}
+#text {
+    text-align: right;
+    line-height: 0.5em;
+    margin: 0px;
+    font-family: helvetica, arial, sans-serif;
+    height: 1px;
+    color: #999;
+    font-size: 200px;
+    font-weight: bold;
+    text-shadow: 5px -5px 16px #000;
+}
+div.wall div {
+    position: absolute;
+    width: 100%;
+    height: 138px;
+    top: 150px;
+    left: 0px;
+    background: #999;
+    margin: 0;
+    padding: 0;
+}
+div.wall div p {
+    color: #FF2626;
+    margin-top: 0;
+}
+div.wall div p i {
+    color: black;
+    font-style: normal;
+}
+#spotlight {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    /*background: url(jscss/1212.jpg) no-repeat left 0px;*/
+    font-size: 12px;
+}
+#spotlight a {
+    color: #ccc;
+    text-decoration: none;
+    position: absolute;
+    left: 60%;
+    top: 90%;
+    float: left;
+    text-shadow: 1px 1px #999, -1px -1px #333;
+    font-size: 30px;
+}
+#spotlight a img {
+    position: absolute;
+    top: -40px;
+    right: -50px;
+    width: 100px;
+    height: 100px;
+}
+#cat {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    opacity: 0.5;
+}
+#cat img { width: 305px; }
+
+    #dv{
+        position: absolute;
+        left: 200px;
+        bottom: 0;
+        width: 400px;
+        height: 100px;
+        border: 3px solid transparent;
+        border-radius: 20px;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,.5);
+        text-align: center;
+        line-height: 100px;
+        font-family: '楷体';
+        font-weight: 700;
+        color: #000;
+        transform-style: preserve-3d;
+        transition: all 1s;
+        animation: qian 2s linear infinite;
+    }
+    #dv span{
+        font-size: 40px;
+        text-shadow: 3px 3px 5px rgba(0,0,0,.8);
+    }
+    @keyframes qian {
+        from{
+            transform: rotateX(0deg);
+        }
+        to{
+            transform: rotateX(360deg);
+        }
+    }
+</style>
+</head>
+
+<body>
+<div id="text-shadow-box">
+    <ul>
+        <li><img src="jscss/1212.jpg" alt=""></li>
+        <li><img src="jscss/q.jpg" alt=""></li>
+        <li><img src="jscss/w.jpg" alt=""></li>
+        <li><img src="jscss/8.jpg" alt=""></li>
+    </ul>
+    <div class="wall">
+        <p id="text">媛媛</p>
+        <div><p>
+            ❤❤<i>❤❤❤❤❤</i>❤❤❤<i>❤❤❤❤❤</i>❤❤❤<i>❤❤</i>❤❤❤<i>❤❤❤❤❤</i>❤❤❤❤❤❤<i>❤❤❤❤❤</i>❤❤❤❤❤❤<i>❤❤❤❤❤</i>❤❤❤❤<i>❤❤❤❤❤</i>❤❤❤❤
+            ❤❤❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤<i>❤❤</i>❤❤❤❤❤❤❤<i>❤</i>❤❤❤❤❤❤<i>❤</i>❤❤❤❤❤❤❤❤❤❤❤❤❤❤<i>❤</i>❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤❤
+            ❤❤❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤<i>❤❤</i>❤❤❤❤❤❤❤<i>❤</i>❤❤❤❤❤❤<i>❤</i>❤❤❤❤❤❤❤❤❤❤❤❤❤❤<i>❤</i>❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤❤
+            ❤❤<i>❤❤❤❤❤</i>❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤<i>❤❤</i>❤❤❤❤❤❤❤<i>❤</i>❤❤❤❤❤❤<i>❤❤❤❤❤</i>❤❤❤❤❤❤<i>❤❤❤❤❤</i>❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤❤
+            ❤❤<i>❤</i>❤❤❤❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤<i>❤❤</i>❤❤❤❤❤❤❤<i>❤</i>❤❤❤❤❤❤❤❤❤❤<i>❤</i>❤❤❤❤❤❤<i>❤</i>❤❤❤❤❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤❤
+            ❤❤<i>❤</i>❤❤❤❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤<i>❤❤</i>❤❤❤❤❤❤❤<i>❤</i>❤❤<i>❤❤</i>❤❤❤❤❤❤<i>❤</i>❤❤<i>❤❤</i>❤❤<i>❤</i>❤❤❤❤❤❤❤❤<i>❤</i>❤❤❤<i>❤</i>❤❤❤❤
+            ❤❤<i>❤❤❤❤❤</i>❤❤❤<i>❤❤❤❤❤</i>❤❤❤<i>❤❤</i>❤❤❤❤❤❤❤<i>❤</i>❤❤<i>❤❤</i>❤❤<i>❤❤❤❤❤</i>❤❤<i>❤❤</i>❤❤<i>❤❤❤❤❤</i>❤❤❤❤<i>❤❤❤❤❤</i>❤❤❤❤
+        </p></div>
+    </div>
+    <div id="spotlight"><a href="index1.html">Yuanyuan Home &nbsp;&nbsp;&nbsp;<img src="jscss/timg.gif" alt=""></a></div>
+    <!--<div id="cat"><img src="jscss/timg.gif" /></div>-->
+
+</div>
+<div id="dv">
+    <span id="date_d">00天</span>
+    <span id="date_h">00时</span>
+    <span id="date_m">00分</span>
+    <span id="date_s">00秒</span>
+</div>
+<script src="jquery/jquery-1.12.4.js"></script>
+<script>
+    $(function () {
+
+        setInterval(date,1000);
+
+
+        function date() {
+            //初始时间
+            var date=new Date('2017/03/21 22:33:44');
+            //现在的时间
+            var nowDate=new Date();
+
+            //时间差
+            var manux=nowDate-date;
+
+            var d=0,h=0,m=0,s=0;
+            var d=Math.floor(manux/1000/60/60/24);
+            var h=Math.floor(manux/1000/60/60%24);
+            var m=Math.floor(manux/1000/60%60);
+            var s=Math.floor(manux/1000%60);
+
+            document.getElementById('date_d').innerHTML=d+'天';
+            document.getElementById('date_h').innerHTML=h+'时';
+            document.getElementById('date_m').innerHTML=m+'分';
+            document.getElementById('date_s').innerHTML=s+'秒';
+        }
+    })
+</script>
+
+</body>
+</html>
